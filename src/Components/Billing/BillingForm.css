@@ -1,0 +1,27 @@
+.billing__section {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.billing__form {
+    margin-top: 30px;
+}
+
+.card__type {
+    margin-top: 15px;
+    width: 50vw;
+    height: 38px;
+    border-radius: 10px;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid navy;
+}
+
+.card_name {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 20px;
+} 

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+.header__text {
+    color:#4e598c;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__nav p {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.personal__nav__info > span > hr{
+    height: 12px;
+    width: 18vw;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: -6px;
+    color:#f2994a;
+    background-color: #f2994a;
+    z-index: 2;
+}
+
+/* .billing__nav__info > span > hr{
+    height: 12px;
+    width: 18vw;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: -6px;
+    color:#f2994a;
+    background-color: #f2994a;
+    z-index: 2;
+} */
+
+.horizontal__line {
+    margin-top: -1px;
+}
+.active__nav {
+    color:#f2994a;
+}
+
+.inactive__nav {
+    color:#bdbdbd;
+}
